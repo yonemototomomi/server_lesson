@@ -7,4 +7,4 @@
 #3. git add .gitignore && git commit -m 'コミットメッセージ'
 #4. git pushでGithubへ反映
 
-trash/gizumo2?.md
+trash/gizumo2[0-9].md
