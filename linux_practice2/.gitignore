@@ -1,0 +1,10 @@
+# gizumo20.md ~ gizumo29.md までのファイルはgit管理対象に置かないことを設定する記述
+
+#手順
+#1. .gitignoreファイルに無視したいファイルやパターンを記載
+#2. すでにGitに追加されているファイルは、gitignoreしても無視されないので、
+#   git rm --cachedでステージから外す必要がある（対象のファイル全てに行う必要がある）
+#3. git add .gitignore && git commit -m 'コミットメッセージ'
+#4. git pushでGithubへ反映
+
+trash/gizumo2?.md
