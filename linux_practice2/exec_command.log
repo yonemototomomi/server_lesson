@@ -1,0 +1,300 @@
+   85  git diff
+   86  git add .
+   87  git status
+   88  ls -a
+   89  apt update
+   90  apt install -y locales
+   91  locale-gen ja_JP.UTF-8
+   92  update-locale LANG=ja_JP.UTF-8
+   93  export LANG=ja_JP.UTF-8
+   94  export LC_ALL=ja_JP.UTF-8
+   95  locale
+   96  apt update
+   97  apt install -y locales
+   98  locale-gen ja_JP.UTF-8
+   99  update-locale LANG=ja_JP.UTF-8
+  100  export LANG=ja_JP.UTF-8
+  101  export LC_ALL=ja_JP.UTF-8
+  102  docker ps
+  103  docker --version
+  104  ls /usr/local/bin/docker
+  105  brew --version
+  106  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  107  xcode-select --install
+  108  git --version
+  109  ls -a
+  110  git status
+  111  git commit -m 'first commit:create server_lesson/linux_practice1/public/index.php: create first.text'
+  112  git log
+  113  git config --global user.name "yonemototomomi"
+  114  git config --global user.email "yomogi6138@gmail.com"
+  115  git log
+  116  git commit -m 'first commit:create server_lesson/linux_practice1/public/index.php: create first.text'
+  117  git log
+  118  git push origin main
+  119  git branch
+  120  git push origin master
+  121  git remote -v
+  122  git remote add origin https://github.com/yonemototomomi/server_lesson
+  123  git push -u origin master
+  124  git push -u origin main
+  125  git branch
+  126  git push -u origin master
+  127  git log
+  128  git checkout -b linux_practice1
+  129  git branch
+  130  git status
+  131  git add .
+  132  git status
+  133  git commit -m 'first commit:create server_lesson/linux_practice1/public/index.php: create first.text'
+  134  git push -u origin linux_practice1
+  135  cd/ root/server_lesson
+  136  cd /root/server_lesson
+  137  cp server_lesson/index_bk.php
+  138  cp server_lesson index_bk.php
+  139  ls server lesson
+  140  ls server_lesson
+  141  pwd
+  142  ls
+  143  ls
+  144  cd linux_practice1
+  145  ls
+  146  cd public
+  147  ls
+  148  cd /root/server_lesson/linux_practice1
+  149  pwd
+  150  cp server_lesson/linux_practice1/public/index.php server_lesson/linux_practice1/public/index_bk.php
+  151  pwd
+  152  ls linux_practice1
+  153  pwd
+  154  cp public/index.php public/index_bk.php
+  155  ls
+  156  cd public
+  157  ls
+  158  git status
+  159  git diff
+  160  git add index_bk.php
+  161  git status
+  162  git commit -m 'create index_bk.php'
+  163  git log
+  164  git push origin linux_practice1
+  165  pwd
+  166  cd public
+  167  pwd
+  168  cd ..
+  169  pwd
+  170  mkdir -p server_lesson/linux_practice1/tmp
+  171  cp -r public tmp/
+  172  ls tmp/public
+  173  ls tmp
+  174  ls public
+  175  git status
+  176  mv tmp/ tmp
+  177  git add tmp
+  178  git status
+  179  git commit -m 'create server_lesson/linux_practice1/tmp'
+  180  git log
+  181  git push origin linux_practice1
+  182  rm server_lesson/linux_practice1/tmp/index_bk.php
+  183  ls
+  184  pwd
+  185  cd public
+  186  ls
+  187  cd tmp
+  188  cd ..
+  189  cd tmp
+  190  ls
+  191  rm server_lesson/linux_practice1/tmp/index_bk.php
+  192  rm index_bk.php
+  193  ls
+  194  git status
+  195  git add index_bk.php
+  196  git status
+  197  git commit -m 'deleted server_lesson/linux_practice1/tmp/index_bk.php'
+  198  git log
+  199  git push origin linux_practice1
+  200  pwd
+  201  cd ..
+  202  pwd
+  203  cd ..
+  204  pwd
+  205  touch server_lesson/README.md
+  206  touch README.md
+  207  ls
+  208  git status
+  209  git add README.md
+  210  git status
+  211  git commit -m 'create README.md'
+  212  git log
+  213  git branch
+  214  git checkout -b linux_practice1
+  215  git checkout -b README.md
+  216  git branch
+  217  git push origin README.md
+  218  pwd
+  219  cd README.md
+  220  ls
+  221  vi README.md
+  222  locale
+  223  apt update
+  224  apt install -y locales
+  225  locale-gen ja_JP.UTF-8
+  226  update-locale LANG=ja_JP.UTF-8
+  227  grep ja_JP.UTF-8 /etc/locale.gen
+  228  sudo sed -i 's/^# *\(ja_JP.UTF-8 UTF-8\)/\1/' /etc/locale.gen
+  229  sudo locale-gen
+  230  sed -i 's/^# *\(ja_JP.UTF-8 UTF-8\)/\1/' /etc/locale.gen
+  231  locale-gen
+  232  echo 'LANG=ja_JP.UTF-8' > /etc/default/locale
+  233  locale
+  234  vi README.md
+  235  vi README.md
+  236  git status
+  237  git diff
+  238  git add README.md
+  239  git status
+  240  git commit -m 'write commands in README.md'
+  241  git log
+  242  git push origin README.md
+  243  pwd
+  244  ls
+  245  pwd
+  246  mkdir linux_practice2
+  247  cd linux_practice2
+  248  pwd
+  249  mkdir documents
+  250  ls
+  251  git status
+  252  git branch
+  253  cd ..
+  254  rm -r linux_practice2
+  255  ls
+  256  git checkout -b linux_practice2
+  257  git branch
+  258  pwd
+  259  ls
+  260  mkdir linux_practice2
+  261  cd linux_practice2
+  262  ls
+  263  pwd
+  264  mkdir documents
+  265  ls
+  266  git status
+  267  git commit -m 'create linux_practice2/documents'
+  268  git diff
+  269  git add .
+  270  git commit -m 'create linux_practice2/documents'
+  271  cd documents
+  272  pwd
+  273  for i in $(seq -w 1 50); do touch documents/gizumo${i}.md; done
+  274  mkdir -p documents
+  275  for i in $(seq -w 1 50); do touch documents/gizumo${i}.md; done
+  276  ls documents
+  277  git status
+  278  ls
+  279  cd documents
+  280  ls
+  281  cd /root/server_lesson
+  282  git status
+  283  git add linux_practice2/
+  284  git status
+  285  git commit -m 'create linux_practice2/documents/50files'
+  286  git log
+  287  git push origin linux_practice2
+  288  pwd
+  289  ls
+  290  cd linux_practice2
+  291  pwd
+  292  ls
+  293  mkdir trash
+  294  ls
+  295  for i in $(seq -w 20 40); do   mv documents/gizumo${i}.md documents/moved/;  Trash
+  296  for i in $(seq -w 20 40); do   mv documents/gizumo${i}.md documents/trash/; done
+  297  for i in $(seq -w 20 40); do   mv documents/gizumo${i}.md trash/; done
+  298  cd documents
+  299  ls
+  300  cd documents
+  301  ls
+  302  mv documents/documents/* documents/
+  303  rm -r documents/documents
+  304  ls -l documents/
+  305  cd ..
+  306  cd ..
+  307  mv documents/documents/* documents/
+  308  rm -r documents/documents
+  309  cd documents
+  310  ls
+  311  for i in $(seq -w 20 40); do   mv documents/gizumo${i}.md trash/; done
+  312  pwd
+  313  cd ..
+  314  for i in $(seq -w 20 40); do   mv documents/gizumo${i}.md trash/; done
+  315  ls
+  316  cd trash
+  317  ls
+  318  cd documents
+  319  cd ..
+  320  cd documents
+  321  ls
+  322  git status
+  323  git diff
+  324  git add .
+  325  git status
+  326  cd ..
+  327  git status
+  328  git add trash
+  329  git status
+  330  git commit -m 'create trash and move 20-40files'
+  331  git log
+  332  git push origin linux_practice2
+  333  pwd
+  334  touch .gitignore
+  335  cd .gitignore
+  336  ls
+  337  ls -a
+  338  vi .gitignore
+  339  git rm --cached documents/gizum2[0-9].md
+  340  git rm --cached documents/gizumo2[0-9].md
+  341  git rm --cached documents/gizumo2?.md
+  342  vi .gitignore
+  343  git rm --cached documents/gizumo2?.md
+  344  git status
+  345  git add .gitignore
+  346  gitstatus
+  347  git status
+  348  pwd
+  349  cd trash
+  350  ls
+  351  vi .ignore
+  352  vi .gitignore
+  353  cd ..
+  354  vi .gitignore
+  355  git status
+  356  git add  .gitignore
+  357  git status
+  358  vi .gitignore
+  359  cd trash
+  360  ls
+  361  git status
+  362  cd ..
+  363  git status
+  364  git add .gitignore
+  365  git status
+  366  gitstatus
+  367  git status
+  368  cd trash
+  369  ls
+  370  cd ..
+  371  git check-ignore -v trash/gizumo20.md
+  372  git rm --cached trash/gizumo2?.md
+  373  git status
+  374  cd trash
+  375  ls
+  376  git commit -m 'gitignore 20-29files'
+  377  ls
+  378  cd ..
+  379  git commit -m 'gitignore 20-29files'
+  380  git log
+  381  git push origin linux_practice2
+  382  touch exec_command.log
+  383  ls
+  384  history 300 > exec_command.log
